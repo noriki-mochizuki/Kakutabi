@@ -2,7 +2,7 @@
 
 Kakutabi Writer (students) and Kakutabi Studio (teachers and TAs), Windows x64.
 
-Current release: **0.1.12**. Download the [Writer installer](https://github.com/noriki-mochizuki/kakutabi-releases/releases/download/v0.1.12/Kakutabi-Writer-0.1.12-x64-setup.exe) or [Studio installer](https://github.com/noriki-mochizuki/kakutabi-releases/releases/download/v0.1.12/Kakutabi-Studio-0.1.12-x64-setup.exe). See [latest Releases](https://github.com/noriki-mochizuki/kakutabi-releases/releases/latest) for release notes, checksums and third-party notices/source materials.
+Current release: **0.1.13**. Download the [Writer installer](https://github.com/noriki-mochizuki/kakutabi-releases/releases/download/v0.1.13/Kakutabi-Writer-0.1.13-x64-setup.exe) or [Studio installer](https://github.com/noriki-mochizuki/kakutabi-releases/releases/download/v0.1.13/Kakutabi-Studio-0.1.13-x64-setup.exe). See [latest Releases](https://github.com/noriki-mochizuki/kakutabi-releases/releases/latest) for release notes, checksums and third-party notices/source materials.
 
 New distributions are installers only. Existing portable users install once; existing report storage and keys in the same Windows account remain available. Teachers can back up keys, official task originals and task drafts in Studio.
 
