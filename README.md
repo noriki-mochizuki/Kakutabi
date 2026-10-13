@@ -1,15 +1,70 @@
-# Kakutabi
+# Kakutabi（カクタビ）
 
-Kakutabi Writer (students) and Kakutabi Studio (teachers and TAs), Windows x64.
+授業のレポートを作成・提出し、教員や添削者が確認・添削するためのWindows用アプリです。
 
-Current release: **0.1.26**. Download the [Writer installer](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.26/Kakutabi-Writer-0.1.26-x64-setup.exe) or [Studio installer](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.26/Kakutabi-Studio-0.1.26-x64-setup.exe). See [latest Releases](https://github.com/noriki-mochizuki/Kakutabi/releases/latest) for release notes, checksums and third-party notices/source materials.
+**学生の方は「Kakutabi Writer」をダウンロードしてください。**
 
-New distributions are installers only. Existing portable users install once; existing report storage and keys in the same Windows account remain available. Teachers can back up keys, official task originals and task drafts in Studio.
+## ダウンロード
 
-The common Writer opens new tasks issued by different Studio teachers without registering each teacher or installing a teacher-specific Writer. The teacher distributes the signed .ktask through the course's normal channel. Studio separately compares submissions with the teacher's retained official originals and accepted revisions. Signature validation does not establish the identity of a teacher or prove human authorship.
+現在の配布版：**0.1.26**（Windows 64bit用）
 
-After the initial installation, use the update icon inside the app to update and restart. A new version is explicitly indicated, with downloaded bytes and percentage during download. Save TA feedback before updating. Updates verify a product-specific signature before installation. Update packages are complete compressed installers (about 8 MB), not delta patches. Windows publisher signing is not provided; your institution's Windows policies still apply.
+| 利用する方 | アプリ | ダウンロード |
+| --- | --- | --- |
+| 学生 | Kakutabi Writer | **[学生用Writerをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.26/Kakutabi-Writer-0.1.26-x64-setup.exe)** |
+| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.26/Kakutabi-Studio-0.1.26-x64-setup.exe) |
 
-License texts, copyright/NOTICE material and required third-party sources are bundled and can be viewed through the app's License screen. Kakutabi's MIT license is unchanged.
+[最新版の配布ページ・変更内容を見る](https://github.com/noriki-mochizuki/Kakutabi/releases/latest)
 
-This repository contains distribution notices only. Application source code, student reports, keys, operation logs, private test builds, and sample data are not published here. GitHub's automatic source archives contain only this repository's distribution notices. Third-party source archives contain the identified third-party components only.
+学生はWriterだけをインストールすれば利用できます。GitHubのアカウント登録は不要です。
+
+## 学生の方：使い始める手順
+
+1. 上の「学生用Writerをダウンロード」を押します。
+2. ダウンロードした `Kakutabi-Writer-0.1.26-x64-setup.exe` を開き、画面の案内に沿ってインストールします。
+3. Writerを起動し、教員から配布された課題ファイル（`.ktask`）を開きます。
+4. 学籍番号・氏名などを入力し、レポートを書きます。
+5. 完成したら「提出ファイルを生成」で提出ファイル（`.kakutabi`）を保存します。
+6. 保存した提出ファイルを、授業で指定されたTeamsなどへ提出します。
+
+**ファイルを生成しただけでは、教員への提出は完了していません。** 授業で指定された提出先へアップロードしてください。
+
+レポートの作成は、同じPC・Windowsアカウントで続けてください。PCの故障などで別のPCが必要になった場合は、教員へ相談してください。
+
+## 添削されたレポートを修正するとき
+
+1. 返却された `.kakutabi` ファイルを、執筆したPCのWriterで開きます。
+2. 「添削を見ながら直す」でコメントを確認し、本文を修正します。
+3. 「提出ファイルを生成」で新しい提出ファイルを保存し、指定された提出先へ再提出します。
+
+Writerでは本文コメントと全体コメントを確認できます。点数と項目別の評価理由は、教員・許可された添削者だけがStudioで確認します。
+
+## アップデート
+
+新しいバージョンがある場合は、アプリ内に更新の案内が表示されます。作業を保存してから更新アイコンを押し、画面の案内に沿って更新・再起動してください。添削中の場合は、添削結果も先に保存してください。
+
+今後の配布はインストール版です。以前のポータブル版を利用している方は、上のインストーラーを一度実行してください。同じWindowsアカウント内に保存されている既存のレポートや鍵は引き継いで利用します。
+
+## ダウンロードするファイルに迷ったら
+
+配布ページの「Assets」は、添付ファイルの一覧です。
+
+- 学生は、名前が `Kakutabi-Writer-` で始まり、`-setup.exe` で終わるファイルを選びます。
+- 教員・添削者は、名前が `Kakutabi-Studio-` で始まり、`-setup.exe` で終わるファイルを選びます。
+- `.sig`、`.json`、`SHA256SUMS.txt` は更新や検証用です。通常のインストールでは個別にダウンロードする必要はありません。
+- 「Source code（zip / tar.gz）」はアプリのインストーラーではありません。
+
+Windowsによる実行確認が表示される場合があります。ファイル名と配布元を確認してください。本アプリにはWindowsの発行元証明書による署名はありません。アプリ内更新では、更新ファイル専用の署名を検証します。
+
+## 教員・添削者の方へ
+
+教員はStudioで作成した `.ktask` を、授業のTeamsなどを通じて学生へ配布してください。学生は共通のWriterを利用できます。教員ごとのWriterの配布や公開鍵の登録操作は不要です。
+
+添削者はStudioで担当者名を一度登録し、添削用PC登録ファイルを教員へ渡してください。教員が権限を付けた提出物を開いて添削します。Studioをインストールしただけで、他の教員や学生のファイルを開けるようにはなりません。
+
+複数の教員PCで利用する場合は、Studioのバックアップ・復元機能で教員設定と配布した課題の情報を共有してください。
+
+## ライセンス・公開範囲
+
+Kakutabi本体のライセンスはMITです。ライセンス全文、著作権表示、第三者ライブラリの告知と必要な第三者ソースは配布物に同梱しており、アプリの「ライセンス」から確認できます。
+
+このリポジトリはアプリの配布・案内用です。Kakutabi本体のソースコード、学生のレポート、秘密鍵、操作ログ、開発用のテストデータは公開していません。GitHubが自動生成する「Source code」の圧縮ファイルには、この配布用リポジトリの案内文などだけが入ります。第三者ソースの添付ファイルには、告知に記載した第三者部品だけが入ります。
