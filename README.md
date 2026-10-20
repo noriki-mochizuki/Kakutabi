@@ -6,12 +6,12 @@
 
 ## ダウンロード
 
-現在の配布版：**0.1.30**（Windows 64bit用）
+現在の配布版：**0.1.31**（Windows 64bit用）
 
 | 利用する方 | アプリ | ダウンロード |
 | --- | --- | --- |
-| 学生 | Kakutabi Writer | **[学生用Writerをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.30/Kakutabi-Writer-0.1.30-x64-setup.exe)** |
-| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.30/Kakutabi-Studio-0.1.30-x64-setup.exe) |
+| 学生 | Kakutabi Writer | **[学生用Writerをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.31/Kakutabi-Writer-0.1.31-x64-setup.exe)** |
+| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.31/Kakutabi-Studio-0.1.31-x64-setup.exe) |
 
 [最新版の配布ページ・変更内容を見る](https://github.com/noriki-mochizuki/Kakutabi/releases/latest)
 
@@ -20,7 +20,7 @@
 ## 学生の方：使い始める手順
 
 1. 上の「学生用Writerをダウンロード」を押します。
-2. ダウンロードした `Kakutabi-Writer-0.1.30-x64-setup.exe` を開き、画面の案内に沿ってインストールします。
+2. ダウンロードした `Kakutabi-Writer-0.1.31-x64-setup.exe` を開き、画面の案内に沿ってインストールします。
 3. Writerを起動し、教員から配布された課題ファイル（`.ktask`）を開きます。
 4. 学籍番号・氏名などを入力し、レポートを書きます。
 5. 完成したら「提出の準備」→「提出ファイルを保存」で提出ファイル（`.kakutabi`）を保存します。
