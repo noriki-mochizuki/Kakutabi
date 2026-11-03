@@ -6,12 +6,12 @@
 
 ## ダウンロード
 
-現在の配布版：**0.1.38**（Windows 64bit用）
+現在の配布版：**0.1.39**（Windows 64bit用）
 
 | 利用する方 | アプリ | ダウンロード |
 | --- | --- | --- |
-| 学生 | Kakutabi Writer | **[学生用Writerをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.38/Kakutabi-Writer-0.1.38-x64-setup.exe)** |
-| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.38/Kakutabi-Studio-0.1.38-x64-setup.exe) |
+| 学生 | Kakutabi Writer | **[学生用Writerをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.39/Kakutabi-Writer-0.1.39-x64-setup.exe)** |
+| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.39/Kakutabi-Studio-0.1.39-x64-setup.exe) |
 
 [最新版の配布ページ・変更内容を見る](https://github.com/noriki-mochizuki/Kakutabi/releases/latest)
 
@@ -20,7 +20,7 @@
 ## 学生の方：使い始める手順
 
 1. 上の「学生用Writerをダウンロード」を押します。
-2. ダウンロードした `Kakutabi-Writer-0.1.38-x64-setup.exe` を開き、画面の案内に沿ってインストールします。
+2. ダウンロードした `Kakutabi-Writer-0.1.39-x64-setup.exe` を開き、画面の案内に沿ってインストールします。
 3. Writerを起動し、教員から配布された課題ファイル（`.ktask`）を開きます。
 4. 学籍番号・氏名などを入力し、レポートを書きます。
 5. 完成したら「提出の準備」→「提出ファイルを保存」で提出ファイル（`.kakutabi`）を保存します。
@@ -35,6 +35,8 @@
 1. 返却された `.kakutabi` ファイルを、執筆したPCのWriterで開きます。
 2. 「添削を見ながら直す」でコメントを確認し、本文を修正します。
 3. 「提出の準備」→「提出ファイルを保存」で新しい提出ファイルを保存し、指定された提出先へ再提出します。
+
+表紙の実験日を追加・訂正する場合は、実験日の横の「実験日を編集」を押し、日付を選んで「実験日を保存」を押します。本文や添削コメントはそのまま残ります。訂正後は提出ファイルを保存し直してください。この機能を使う場合は、学生のWriterと教員・添削者のStudioを0.1.39以降に更新してください。
 
 Writerでは本文コメントと全体コメントを確認できます。点数と項目別の評価理由は、教員・許可された添削者だけがStudioで確認します。
 
