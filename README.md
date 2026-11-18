@@ -6,12 +6,12 @@
 
 ## ダウンロード
 
-現在の配布版：**0.1.39**（Windows 64bit用）
+現在の配布版：**Writer 0.1.39／Studio 0.1.40**（Windows 64bit用）
 
 | 利用する方 | アプリ | ダウンロード |
 | --- | --- | --- |
 | 学生 | Kakutabi Writer | **[学生用Writerをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.39/Kakutabi-Writer-0.1.39-x64-setup.exe)** |
-| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.39/Kakutabi-Studio-0.1.39-x64-setup.exe) |
+| 教員・添削者（TAなど） | Kakutabi Studio | [教員・添削者用Studioをダウンロード](https://github.com/noriki-mochizuki/Kakutabi/releases/download/v0.1.40/Kakutabi-Studio-0.1.40-x64-setup.exe) |
 
 [最新版の配布ページ・変更内容を見る](https://github.com/noriki-mochizuki/Kakutabi/releases/latest)
 
@@ -52,7 +52,7 @@ Writerでは本文コメントと全体コメントを確認できます。点�
 
 配布ページの「Assets」は、添付ファイルの一覧です。
 
-- 学生は、名前が `Kakutabi-Writer-` で始まり、`-setup.exe` で終わるファイルを選びます。
+- 学生は、上の「学生用Writerをダウンロード」を使ってください。Studioだけの更新では、最新版の添付一覧にWriterがない場合があります。
 - 教員・添削者は、名前が `Kakutabi-Studio-` で始まり、`-setup.exe` で終わるファイルを選びます。
 - `.sig`、`.json`、`SHA256SUMS.txt` は更新や検証用です。通常のインストールでは個別にダウンロードする必要はありません。
 - 「Source code（zip / tar.gz）」はアプリのインストーラーではありません。
@@ -71,6 +71,8 @@ Windowsによる実行確認が表示される場合があります。ファイ�
 
 
 0.1.38では、Studioの添削画面を「コメント」「評価」「履歴」に分けました。自分の最新コメントを編集・削除し、「上書き保存」「別名で保存」を選べます。コメントをクリックすると該当箇所へ移動します。以前の本文への添削は履歴で確認してください。
+
+0.1.40では、初回保存・別名保存時に、元のファイル名の先頭へ「添削済み_」を付けます。元の学籍番号・氏名・日時などの並びは引き継ぎ、上書き保存では名前を変えません。今回の更新はStudioのみです。
 
 複数の教員PCで利用する場合は、Studioのバックアップ・復元機能で教員設定と配布した課題の情報を共有してください。
 
